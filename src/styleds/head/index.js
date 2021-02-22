@@ -24,10 +24,30 @@ export const Phone = styled.span`
     color: white;
     margin-left: 50%;
     width: 25%;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: #fff;
+    }
 `
 
 export const WApp = styled.span`
     width: 25%;
+    
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: #000;
+    }
 `
 
 export const Right = styled.div`
@@ -41,6 +61,17 @@ export const Social = styled.span`
     width: 100%;
     padding: 15px;
     justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        color: #000;
+        margin-left: 10px;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: #000;
+    }
 `
 export const Menu = styled.div`
     width: 100vw;
@@ -63,6 +94,42 @@ export const Links = styled.div`
 
     a {
         text-decoration: none;
+        color: #fff;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+`
+
+export const Slogan = styled.span`
+    width: 60vw;
+    height: 20vh;
+    margin-left: 20vw;
+
+    p {
+        color: #fff;
+        font-size: 40px;
+        text-align: left;
+        width: 30vw;
+        margin: 0;
+    }
+`
+
+export const WAppSide = styled.span`
+    background-image: linear-gradient(to right, #539388 , #246ea4);
+    width: 60px;
+    height: 35          px;
+    position: absolute;
+    top: 40vh;
+    right: 0;
+    
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        font-size: 30px;
         color: #fff;
     }
 
